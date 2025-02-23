@@ -6,7 +6,8 @@
     <title>Low Poly Shooter</title>
     <style>
         body {
-            background: linear-gradient(to bottom, #1e3a8a, #000);
+            background: url('your-image-url.jpg') no-repeat center center fixed;
+            background-size: cover;
             color: white;
             font-family: Arial, sans-serif;
             text-align: center;
@@ -17,35 +18,49 @@
             padding: 50px 20px;
         }
         .hero {
-            padding: 100px 20px;
+            padding: 150px 20px;
         }
         .hero h1 {
-            font-size: 3rem;
-            margin-bottom: 10px;
+            font-size: 4rem;
+            text-shadow: 3px 3px 10px rgba(0,0,0,0.7);
+            margin-bottom: 20px;
         }
         .hero p {
-            font-size: 1.2rem;
-            max-width: 600px;
+            font-size: 1.5rem;
+            max-width: 800px;
             margin: 0 auto;
+            text-shadow: 2px 2px 10px rgba(0,0,0,0.7);
         }
         .btn {
             display: inline-block;
-            background: #2563eb;
-            color: white;
-            padding: 10px 20px;
-            font-size: 1.2rem;
+            background: #ffcc00;
+            color: #222;
+            padding: 15px 30px;
+            font-size: 1.5rem;
+            font-weight: bold;
             border-radius: 10px;
             text-decoration: none;
-            margin-top: 20px;
+            margin-top: 30px;
+            box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
         }
         .btn:hover {
-            background: #1d4ed8;
+            background: #ffaa00;
         }
         .section {
-            padding: 50px 20px;
-            background: #111;
-            margin: 20px 0;
-            border-radius: 10px;
+            padding: 60px 20px;
+            background: rgba(0, 0, 0, 0.8);
+            margin: 40px auto;
+            max-width: 900px;
+            border-radius: 20px;
+            box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+        }
+        .section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        .section p {
+            font-size: 1.2rem;
+            line-height: 1.6;
         }
     </style>
 </head>
